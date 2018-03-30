@@ -1,0 +1,25 @@
+package com.org;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/demo")
+public class DemoREST {
+	@Path("/greeting")
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public String test(){
+		System.out.println("test() is called");
+		return "<greetig> Hello </greeting>";
+	}
+	
+	@Path("/getCustomer")
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public void sendCustomer(){
+		System.out.println("sendCustomer() is called");
+	}
+
+}

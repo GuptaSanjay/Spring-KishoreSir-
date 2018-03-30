@@ -1,0 +1,12 @@
+package com.org;
+
+import javax.ws.rs.Path;
+
+@Path("/demo")
+public class DemoREST {
+	public String test(){
+		System.out.println("test() is called");
+		return <greetig> Hello </greeting>
+	}
+
+}

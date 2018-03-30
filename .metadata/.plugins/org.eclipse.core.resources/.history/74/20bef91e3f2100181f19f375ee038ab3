@@ -1,0 +1,8 @@
+package cts.modal;
+
+import org.hibernate.SessionFactory;
+
+public class EmployeeDao {
+	SessionFactory sf=
+
+}

@@ -1,0 +1,22 @@
+package pack;
+
+public class Customer {
+
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	private Identifier id;
+	public Customer(Identifier id) {
+		super();
+		this.id = id;
+	}
+	public Identifier getId() {
+		return id;
+	}
+	public void setId(Identifier id) {
+		this.id = id;
+	}
+	
+
+}
